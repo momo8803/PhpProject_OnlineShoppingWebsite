@@ -1,0 +1,62 @@
+.signUp-container {
+	width: 100%;
+	text-align: center;
+	background-image: url("../images/login.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	height: 350px;
+	justify-content: center;
+	 align-items: center;
+	 display: flex;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+td {
+  text-align: center;
+  font-size: 15px;
+  line-height: 30px;
+}
+
+.signUpForm {
+	line-height: 30px;
+	display: inline-block;
+	width: 30%;
+	background-color: rgba(255, 255, 255, 0.5);
+	border: 2px solid black;
+	margin-top: 40px;
+}
+
+.signUpForm input
+{
+	margin: 10px 0;
+	width: 220px;
+	height: 30px;
+	border: 1px solid;
+	border-radius: 8px;
+}
+
+.signUpForm a input,
+ .signUpForm input[type="submit"]{
+	background-color: black;
+	color: white;
+}
+
+.signUpForm p{
+	background: rgba(0, 0, 0, 0.5);
+	color: white;
+}
+
+.personalInfo {
+	width: 20%;
+	float: left; 
+	padding-left:130px;
+}
+
+.loginInfo {
+	width: 60%;
+	float: left;
+}

@@ -1,0 +1,97 @@
+*{
+	margin: 0;
+	font-family: helvetica, sans-serif;
+}
+
+body {
+	background-color: #f5f5f5;
+}
+
+.slideshow-container {
+	/* max-width: 1000px; */
+	position: relative;
+	text-align: center;
+	margin: auto;
+}
+
+.text {
+	color: #f2f2f2;
+	font-size: 15px;
+	padding: 8px 12px;
+	position: absolute;
+	bottom: 8px;
+	width: 100%;
+	text-align: center;
+}
+
+.mySlides {
+	
+	display: none;}
+img {
+	width: 70%;
+	text-align: center;
+}
+
+.fade {	
+	
+	animation-name: fade;
+	animation-duration: 1.5s;
+}
+  
+  @keyframes fade {
+	from {opacity: .4} 
+	to {opacity: 1}
+  }
+  
+  /* On smaller screens, decrease text size */
+  @media only screen and (max-width: 300px) {
+	.text {font-size: 11px}
+  }
+
+  .dot {
+	height: 15px;
+	width: 15px;
+	margin: 0 2px;
+	background-color: #bbb;
+	border-radius: 50%;
+	display: inline-block;
+	transition: background-color 0.6s ease;
+  }
+
+  .active {
+	background-color: #717171;
+  }
+  .img2{
+	text-align: center;
+	
+	width: auto;
+  }
+
+  .slideshow-container .text h3 {
+	font-size: 62px;
+	text-transform: uppercase;
+	line-height: 72px;
+	background-color: transparent;
+	
+	
+	
+	
+  }
+  
+  
+  .slideshow-container .text a.shop-button.btn {
+	display: inline-block;
+	outline: none;
+	border: none;
+	font-weight: 600;
+	padding: 10px 26px;
+	font-size: 16px;
+	background-color: transparent;
+	margin-top: 30px;
+	color: #ca2533;
+	border-radius: 25px;
+  }
+  .w3l-banner-slider-main a.shop-button.btn:hover {
+	background: #ff7315;
+	color: #fff;
+  }

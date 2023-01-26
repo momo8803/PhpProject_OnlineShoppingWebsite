@@ -1,0 +1,64 @@
+.shopping-cart h1 {
+	text-transform: uppercase; 
+}
+
+.cart-container {
+	margin-top: 50px;
+	margin-bottom: 50px;
+	 display: flex;
+	 justify-content: center;
+	 align-items: center;
+}
+
+td {
+  text-align: center;
+  font-size: 15px;
+  line-height: 30px;
+}
+
+.shopping-cart{
+ width: 70%;
+ height: 85%;
+}
+
+thead th {
+	height: 80px;
+}
+
+thead th:nth-child(1) {
+  width: 30%;
+}
+
+thead th:nth-child(3) {
+  width: 100px;
+}
+
+.cartForm input[type="number"] {
+	width: 50px;
+	 background-color: rgba(255, 255, 255, 0.5);
+	 border:none;
+}
+
+table a{
+	font-size: 13px;
+	color: black;
+	text-transform: uppercase; 
+}
+
+.table-bottom {
+	font-weight: bold;
+	text-transform: uppercase; 
+}
+
+.options a {
+	text-decoration: none;
+	background: rgba(255, 255, 255, 0.5);
+}
+
+tbody tr:nth-child(3) {
+	height: 100px;
+}
+
+/*table, table th{
+	border: 1px solid black;
+}*/

@@ -1,0 +1,44 @@
+.options a {
+	text-decoration: none;
+	color: black;
+	padding: 30px;
+}
+
+.options {
+	padding-top: 20px;
+	width: 100%;
+	background-color: #f5f5f5;
+}
+
+.men-images img{
+	width: 100%;
+}
+
+.men-images {
+	padding-top: 20px;
+	line-height: 0;
+}
+
+.img-container {
+	position: relative;
+}
+
+.img-container .btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: transparent;
+  color: white;
+  font-size: 35px;
+  padding: 10px 36px;
+  border: 1px solid lightgray;
+  cursor: pointer;
+  border-radius: 5px;
+  height: 100px
+}
+
+.img-container .btn:hover {
+  border: 2px solid black;
+}

@@ -1,0 +1,45 @@
+.login-container
+{
+	width: 100%;
+	text-align: center;
+	background-image: url("../images/login.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	height: 350px;
+}
+
+.loginForm {
+	line-height: 30px;
+	display: inline-block;
+	width: 30%;
+	background-color: rgba(255, 255, 255, 0.5);
+	border: 2px solid black;
+	margin-top: 40px;
+}
+
+.loginForm input[type="email"],
+.loginForm input[type="password"] {
+	margin: 10px 0;
+	width: 200px;
+	height: 30px;
+	border: 1px solid;
+}
+
+.loginForm p {
+	background: rgba(0, 0, 0, 0.5);
+	color: white;
+	font-size: 13px;
+}
+
+.loginForm button[type="submit"] {
+	width: 160px;
+	height: 30px;
+	margin-bottom: 11px;
+	background-color: black;
+	color: white;
+}
+
+.loginForm a{
+	font-size: 13px;
+	color: black;
+}
